@@ -10,8 +10,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        string svgFile = "C:\\Users\\TomaszFlorczyk\\GitClone\\SimpleConsoleApp\\SimpleApp\\SimpleApp\\input.svg";
-        FileInfo pdfFile = new FileInfo("C:\\Users\\TomaszFlorczyk\\GitClone\\SimpleConsoleApp\\SimpleApp\\SimpleApp\\output.pdf"); // Replace with the desired PDF file path
+        string svgFile = "input.svg";
+        FileInfo pdfFile = new FileInfo("output.pdf"); // Replace with the desired PDF file path
 
         try
         {
