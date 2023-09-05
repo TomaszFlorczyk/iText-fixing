@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="AngleSharp" Version="1.0.4" />
+	  <PackageReference Include="itext7" Version="8.0.1" />
+	  <PackageReference Include="itext7.bouncy-castle-adapter" Version="8.0.1" />
+	  <PackageReference Include="itext7.pdfhtml" Version="5.0.1" />
+	  <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.10" />
+	  <PackageReference Include="Microsoft.IdentityModel" Version="7.0.0" />
+	  <PackageReference Include="Svg" Version="3.4.4" />
+	  <PackageReference Include="SvgNet" Version="3.3.3" />
+	  <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+	  <PackageReference Include="System.Xml.XPath" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
