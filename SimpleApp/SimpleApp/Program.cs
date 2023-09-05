@@ -43,7 +43,6 @@ class Program
         catch (Exception ex)
         {
             Console.WriteLine($"An error occurred: {ex.Message}");
-            Console.WriteLine(ex.StackTrace); // Print the stack trace for debugging
         }
     }
 }
